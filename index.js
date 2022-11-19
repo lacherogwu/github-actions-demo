@@ -4,6 +4,6 @@ function doSomething() {
   return `x is ${x}`;
 }
 
-doSomething();
+// doSomething();
 
 // test
