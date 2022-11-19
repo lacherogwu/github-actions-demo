@@ -5,3 +5,5 @@ function doSomething() {
 }
 
 doSomething();
+
+// test
