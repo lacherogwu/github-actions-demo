@@ -4,6 +4,7 @@ function doSomething() {
   return `x is ${x}`;
 }
 
-// doSomething();
+doSomething();
+console.log('ge');
 
 // test
