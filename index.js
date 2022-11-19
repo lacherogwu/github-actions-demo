@@ -5,6 +5,5 @@ function doSomething() {
 }
 
 doSomething();
-console.log('ge');
 
 // test
