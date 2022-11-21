@@ -8,4 +8,4 @@ jobs:
       - uses: actions/checkout@v3
       - uses: lacherogwu/github-actions-npmrc@v1
         with:
-          npm-token: Mona the Octocat
+          npm-token: ${{ secrets.NPM_TOKEN }}
