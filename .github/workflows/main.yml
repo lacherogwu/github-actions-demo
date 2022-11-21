@@ -6,7 +6,8 @@ jobs:
     name: A job to say hello
     steps:
       - uses: actions/checkout@v3
-      - uses: lacherogwu/github-actions-npmrc@v1.1
+      - uses: lacherogwu/github-actions-npmrc@v1
         with:
           npm-token: ${{ secrets.NPM_TOKEN }}
+          directories: test1,test2
       - run: ls -la
