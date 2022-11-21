@@ -1,0 +1,15 @@
+on:
+  workflow_call:
+    secrets:
+      access-token:
+        description: 'A token passed from the caller workflow'
+        required: false
+
+jobs:
+  pass-secret-to-action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v6
+        id: set-result
+        with:
+          script: return "Hello! ${{ secrets.access-token }}"
