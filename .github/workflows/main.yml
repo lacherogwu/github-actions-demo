@@ -9,3 +9,4 @@ jobs:
       - uses: lacherogwu/github-actions-npmrc@v1
         with:
           npm-token: ${{ secrets.NPM_TOKEN }}
+      - run: ls -la
