@@ -1,0 +1,11 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: A job to say hello
+    steps:
+      - uses: actions/checkout@v3
+      - uses: lacherogwu/github-actions-npmrc@v1
+        with:
+          npm-token: Mona the Octocat
