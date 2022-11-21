@@ -11,3 +11,4 @@ jobs:
           npm-token: ${{ secrets.NPM_TOKEN }}
           directories: test1,test2
       - run: ls -la
+      - run: ls -la test1
