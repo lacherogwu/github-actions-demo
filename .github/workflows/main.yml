@@ -12,4 +12,3 @@ jobs:
           directories: test1,test2
       - run: ls -la
       - run: ls -la test1
-      - run: ls -la test2
