@@ -1,9 +1,4 @@
-const x = 'hello';
+const items = ['stam', 2, 3, 4, 5];
+items.stamX = 'noder';
 
-function doSomething() {
-  return `x is ${x}`;
-}
-
-doSomething();
-
-// test
+const { length, 0: first, [length - 1]: last } = items;
