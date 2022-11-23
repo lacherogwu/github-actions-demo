@@ -4,10 +4,10 @@ jobs:
   upload:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: mkdir -p path/to/artifact
       - run: echo "Hello World" > path/to/artifact/hello.txt
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: my-artifact
           path: path/to/artifact
